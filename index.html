@@ -2,13 +2,21 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css">
+        <title>momentum App</title>
     </head>
     <body>
         <h2 id="clock">00:00:00</h2>
-        <div id="login-form">
-            <input type="text" placeholder="What is your name?" />
-            <button>Log In</button>
-        </div>
+        <form id="login-form">
+            <input 
+                required
+                maxlength="15"
+                type="text"
+                placeholder="What is your name?" 
+            />
+            <input type="submit" value="Log In" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
         <div id="quote">
             <span></span>
             <span></span>
