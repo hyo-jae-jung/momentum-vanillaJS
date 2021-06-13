@@ -14,13 +14,15 @@ subTitle2.innerText = "Finished";
 const finished = document.createElement("ul");
 finished.className = "js-ul-Finished";
 
+const todo = document.querySelector("#todo")
+
 toDoForm.appendChild(addTask);
-document.body.appendChild(title);
-document.body.appendChild(toDoForm);
-document.body.appendChild(subTitle1);
-document.body.appendChild(pending);
-document.body.appendChild(subTitle2);
-document.body.appendChild(finished);
+todo.appendChild(title);
+todo.appendChild(toDoForm);
+todo.appendChild(subTitle1);
+todo.appendChild(pending);
+todo.appendChild(subTitle2);
+todo.appendChild(finished);
 
 function randomInt() {
     return Math.floor(Math.random() * 100000);
