@@ -1,9 +1,15 @@
 body {
     color:aliceblue;
-    padding-left:20vh;
+    padding-left:10%
 }
 #clock {
     font-size:100px;
+}
+#air {
+    display: inline;
+}
+#login-form {
+    padding-top:40px;
 }
 .hidden {
     display: none;
@@ -42,4 +48,10 @@ body {
 }
 .Hazardous {
     color: rgb(126,0,35);
+}
+#quote {
+    padding-top:10vh;
+}
+#quote span {
+    display: block;
 }
